@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./TourAgent.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+
+        <div id="add_country">
+            <h2>Додати країну</h2>
+            <form action="">
+                <input id="add_country_inp" type="text" placeholder="Введіть країну">
+                <input type="button" value="Додати країну" id="add_country_btn">
+            </form>
+            
+        </div>
+
+        
+    
+        <div id="add_city">
+            <h2>Додати місто</h2>
+            <form action="">
+                
+               <select name="" id="id_country_one">
+                <option value="0">Країна не обрана</option>
+                </select>
+                <input type="text" id="add_city_inp" placeholder="Введіть місто">
+            <input type="button" value="Додати місто" id="add_city_btn">
+            </form>
+        </div>
+    
+
+
+        <div id="add_hotel">
+            <h2>Додати готель</h2>
+            <form action="">
+                <select name="id_country" id="id_country" >
+                    <option value="0">Країна не обрана</option>
+                </select><br>
+                <select name="id_city" id="id_city" >
+                    <option value="0">Місто не обране</option>
+                </select>
+                <h4>Назва Готелю</h4>
+                <input type="text" id="name_hotel">
+                <h4>Зірки</h4>
+                <select name="stars" id="stars">
+                    <option value="1">*</option>
+                    <option value="2">**</option>
+                    <option value="3">***</option>
+                    <option value="4">****</option>
+                    <option value="5">*****</option>
+                </select>
+                <input type="button" value="Обрати" id="select_button">
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+
+    
+    
+   
+    
+    <!-- доробити третій інпут  -->
+
+    <script src="/jquery.js"></script>
+    <script src="/jquery.idTabs.min.js"></script>
+    <script src="./TourAgent.js"></script>
+</body>
+</html>

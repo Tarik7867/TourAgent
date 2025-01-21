@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://wallpaper.forfun.com/fetch/2e/2e1c0db4395ebc734ab35d9e9eb93cf7.jpeg?w=1470&r=0.5625);
+    background-color: darkcyan;
+    opacity: 0.95;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+.main{
+    height: 800px;
+    width: 992px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+    
+}
+
+#add_country{
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    grid-column: 1; 
+    grid-row: 1; 
+    border-radius: 19px;
+}
+
+#add_city{
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    grid-column: 2; 
+    grid-row: 1; 
+    border-radius: 19px;
+}
+
+#add_hotel{
+    height: 300px;
+    width: 300px;
+    background-color: whitesmoke;
+    grid-column: 3;
+    grid-row: 1;
+    border-radius: 19px;
+}
+
+input{
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+
+select{
+    margin-left: 60px;
+
+}
+
+#id_country_one{
+    margin-bottom: 10px;
+}
+
+#id_country{
+    margin-bottom: 10px;
+}
+
+#id_city{
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4{
+    width: 101px;
+    margin: 0;
+    margin-left: 60px;
+    margin-bottom: 3px;
+}
+
+#admin{
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    font-size: larger;
+    margin-left: 60px;
+}

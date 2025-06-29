@@ -279,7 +279,7 @@ h4{
     flex-direction: column;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100%);
+    width: 90%;
     max-width: 1700px;
     height: 400px;
     background-color: aliceblue;

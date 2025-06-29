@@ -4,71 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./TourAgent.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Old+Italic&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 
-    <div class="main">
-
-        <div id="add_country">
-            <h2>Додати країну</h2>
-            <form action="">
-                <input id="add_country_inp" type="text" placeholder="Введіть країну">
-                <input type="button" value="Додати країну" id="add_country_btn">
-            </form>
-            
-        </div>
-
-        
+    <nav>
+        <img id="logomount" src="./img/klipartz.com.png">
+            <button id="callus">Позвоніть нам</button>
+        <div class="cont"></div>
+       
+    </nav>
+    <img id="frstimg" src="./Нереальна_природа_Карпат.jpg" alt="">
     
-        <div id="add_city">
-            <h2>Додати місто</h2>
-            <form action="">
-                
-               <select name="" id="id_country_one">
-                <option value="0">Країна не обрана</option>
-                </select>
-                <input type="text" id="add_city_inp" placeholder="Введіть місто">
-            <input type="button" value="Додати місто" id="add_city_btn">
-            </form>
-        </div>
-    
+    <div class="container">
+        <section id="one">
+                <h1>У нас для тебе два варіанти</h1>
+            <div class="blocks">
+                    <div class="blockone">
+                        <p>01 Сидіти дома і заздрити чужим сторіс</p>
+                    </div>
+                    <div class="blocktwo">
+                        <p>02 Збирати валізи і їхати туди, де тобі будуть заздрити</p>
+                    </div>
+                </div>
+                    <button id="selecttwo">Обираю другий<img id="heart" src="./img/heart-svgrepo-com.svg"></button>
+        </section>
+        <section id="two">
+                    <div class="blocktext">
+                        <p>Ми не продаємо тури - ми створюємо твій особистий кайф</p>
+                        <div class="blocktextandbtn">
+                            <p>Серйозно. Ми навіть підкажемо, де зробити ту саму фотографію для Інстаграм.</p>
+                            <button>Розкажіть детальніше<img id="heartt" src="./img/headt2.svg"></button>
+                        </div>
+                    </div>
+                    <div class="blockcards">
+                        <div class="frstcard">
+                            <div class="mblock">
+                                <img src="./img/original-5983091304762.jpg" alt="">
+                                <p>Віза, страхування, трансфер - ти навіть не згадаєш, що це було.</p>
+                                <p class="numbermblock">01</p>
+                            </div>
+                           
+                        </div>
+                        <div class="frstcard">
+                            <div class="mblock">
+                                <img src=".//img/unseco.jpg" alt="">
+                                <p>Звичайні тури? Ні, не чули. Тільки те, що зачепить особисто тебе.</p>
+                                <p class="numbermblock">02</p>
+                            </div>
+                        </div>
+                        <div class="frstcard">
+                            <div class="mblock">
+                                <img src="./img/be397c91b8026b17f5f8a6ed98e23e9e.jpg" alt="">
+                                <p>Якщо щось піде не так - ми вирішим це до того, як ти помітиш.</p>
+                                <p class="numbermblock">03</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+        </section>
+        <section id="three">
+                    <img id="lstbckg" src="./399634-svetik_3840x2400.jpg" alt="">
+             <div class="tint">
 
+          </div>
+              <div class="contik">
+                        <p>НУ ЩО, ПОЇХАЛИ?</p>
+                        <div class="main">
 
-        <div id="add_hotel">
-            <h2>Додати готель</h2>
-            <form action="">
-                <select name="id_country" id="id_country" >
-                    <option value="0">Країна не обрана</option>
-                </select><br>
-                <select name="id_city" id="id_city" >
-                    <option value="0">Місто не обране</option>
-                </select>
-                <h4>Назва Готелю</h4>
-                <input type="text" id="name_hotel">
-                <h4>Зірки</h4>
-                <select name="stars" id="stars">
-                    <option value="1">*</option>
-                    <option value="2">**</option>
-                    <option value="3">***</option>
-                    <option value="4">****</option>
-                    <option value="5">*****</option>
-                </select>
-                <input type="button" value="Обрати" id="select_button">
-            </form>
-        </div>
-
-
-
+                            <div id="add_country">
+                                <h2>Додати країну</h2>
+                                <form action="">
+                                    <input id="add_country_inp" type="text" placeholder="Введіть країну">
+                                    <input type="button" value="Додати країну" id="add_country_btn">
+                                </form>
+                                
+                            </div>
+                    
+                            
+                        
+                            <div id="add_city">
+                                <h2>Додати місто</h2>
+                                <form action="">
+                                    
+                                   <select name="" id="id_country_one">
+                                    <option value="0">Країна не обрана</option>
+                                    </select>
+                                    <input type="text" id="add_city_inp" placeholder="Введіть місто">
+                                <input type="button" value="Додати місто" id="add_city_btn">
+                                </form>
+                            </div>
+                        
+                    
+                    
+                            <div id="add_hotel">
+                                <h2>Додати готель</h2>
+                                <form action="">
+                                    <select name="id_country" id="id_country" >
+                                        <option value="0">Країна не обрана</option>
+                                    </select><br>
+                                    <select name="id_city" id="id_city" >
+                                        <option value="0">Місто не обране</option>
+                                    </select>
+                                    <h4>Назва Готелю</h4>
+                                    <input type="text" id="name_hotel">
+                                    <h4>Зірки</h4>
+                                    <select name="stars" id="stars">
+                                        <option value="1">★</option>
+                                        <option value="2">★★</option>
+                                        <option value="3">★★★</option>
+                                        <option value="4">★★★★</option>
+                                        <option value="5">★★★★★</option>
+                                    </select>
+                                    <input type="button" value="Обрати" id="select_button">
+                                </form>
+                            </div>
+                    
+                    
+                    
+                    
+                        </div>
+         </div>
+                    
+        </section>
 
     </div>
+
+
+
+   
 
 
     
     
    
     
-    <!-- доробити третій інпут  -->
+    
 
     <script src="/jquery.js"></script>
     <script src="/jquery.idTabs.min.js"></script>
